@@ -47,5 +47,5 @@ const GET_BLOG = async (_, res) => {
   res.status(200).json(blog);
 };
 
-module.exports = { BLOG, GET_BLOG };
+module.exports = { blog, GET_BLOG };
 //

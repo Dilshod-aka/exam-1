@@ -10,7 +10,7 @@ const POST_LOGIN = async (req, res) => {
   );
 
   if (!foundUser) {
-    return res.status(400).json({ message: "Such user not found" });
+    return res.status(400).json({ message: "Such user" });
   }
 
   return res.status(200).json({ user: foundUser });
